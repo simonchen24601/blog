@@ -1,3 +1,11 @@
+---
+title: libev Implementation Analysis
+date: 2025-01-15 12:30:17
+tags: 
+    - libev 
+    - event loop
+---
+
 `libev` is basically an event loop, which watches and dispatches the target events. It includes the following parts:
 - Event Handle
 - IO Multiplexing
@@ -144,6 +152,7 @@ typedef struct {
 - `invoke_cb`: it is `ev_invoke_pending` by default, the callback will be take out of from the priority queue then be triggered respectively.
 
 ## Reference
+
 [libev | Github](https://github.com/enki/libev)
 
 [Quaternary Heaps | University of Waterloo ECE 250](https://ece.uwaterloo.ca/~dwharder/aads/Algorithms/d-ary_heaps/Quaternary_heaps/)
