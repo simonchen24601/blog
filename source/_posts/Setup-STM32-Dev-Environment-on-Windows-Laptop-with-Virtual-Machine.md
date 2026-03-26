@@ -1,6 +1,6 @@
 ---
 title: Setup STM32 Dev Environment on Windows Laptop with Virtual Machine
-date: 2025-09-13 03:50:51
+date: 2025-05-13 03:50:51
 ---
 
 ## Software Spec
